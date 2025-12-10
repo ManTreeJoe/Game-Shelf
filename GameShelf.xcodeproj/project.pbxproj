@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B01000001 /* GameShelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000001 /* GameShelfApp.swift */; };
+		B01000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000002 /* ContentView.swift */; };
+		B01000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02000003 /* Assets.xcassets */; };
+		B01000004 /* ROM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000004 /* ROM.swift */; };
+		B01000005 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000005 /* AppConfig.swift */; };
+		B01000006 /* ROMScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000006 /* ROMScanner.swift */; };
+		B01000007 /* EmulatorLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000007 /* EmulatorLauncher.swift */; };
+		B01000008 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000008 /* LibraryViewModel.swift */; };
+		B01000009 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000009 /* LibraryView.swift */; };
+		B0100000A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200000A /* SettingsView.swift */; };
+		B0100000B /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200000B /* GameCardView.swift */; };
+		B0100000C /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200000C /* Platform.swift */; };
+		B0100000D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200000D /* Theme.swift */; };
+		B0100000E /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200000E /* Animations.swift */; };
+		B0100000F /* GlitchEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200000F /* GlitchEffect.swift */; };
+		B01000010 /* ScanlineOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000010 /* ScanlineOverlay.swift */; };
+		B01000011 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000011 /* Collection.swift */; };
+		B01000012 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000012 /* SidebarView.swift */; };
+		B01000013 /* CollectionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000013 /* CollectionEditorView.swift */; };
+		B01000014 /* ArtworkScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000014 /* ArtworkScraper.swift */; };
+		B01000015 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000015 /* ImageCache.swift */; };
+		B01000016 /* GameMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000016 /* GameMetadata.swift */; };
+		B01000017 /* PlaySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000017 /* PlaySession.swift */; };
+		B01000018 /* SessionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000018 /* SessionTracker.swift */; };
+		B01000019 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000019 /* StatsView.swift */; };
+		B0100001A /* StatsDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200001A /* StatsDashboardView.swift */; };
+		B0100001B /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200001B /* GameDetailView.swift */; };
+		B0100001C /* ArtworkFetcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200001C /* ArtworkFetcherView.swift */; };
+		B0100001D /* QuickLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200001D /* QuickLaunchView.swift */; };
+		B0100001E /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200001E /* ListRowView.swift */; };
+		B0100001F /* SmartCollectionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0200001F /* SmartCollectionEditorView.swift */; };
+		B01000020 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000020 /* OnboardingView.swift */; };
+		B01000021 /* GamepadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000022 /* GamepadController.swift */; };
+		B01000022 /* SteamScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000023 /* SteamScanner.swift */; };
+		B01000024 /* EmulatorDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000025 /* EmulatorDownloadManager.swift */; };
+		B01000025 /* SaveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02000026 /* SaveManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B02000000 /* GameShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02000001 /* GameShelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameShelfApp.swift; sourceTree = "<group>"; };
+		B02000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B02000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B02000004 /* ROM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROM.swift; sourceTree = "<group>"; };
+		B02000005 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		B02000006 /* ROMScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROMScanner.swift; sourceTree = "<group>"; };
+		B02000007 /* EmulatorLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmulatorLauncher.swift; sourceTree = "<group>"; };
+		B02000008 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		B02000009 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		B0200000A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B0200000B /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
+		B0200000C /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		B0200000D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B0200000E /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		B0200000F /* GlitchEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchEffect.swift; sourceTree = "<group>"; };
+		B02000010 /* ScanlineOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanlineOverlay.swift; sourceTree = "<group>"; };
+		B02000011 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		B02000012 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		B02000013 /* CollectionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionEditorView.swift; sourceTree = "<group>"; };
+		B02000014 /* ArtworkScraper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkScraper.swift; sourceTree = "<group>"; };
+		B02000015 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		B02000016 /* GameMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMetadata.swift; sourceTree = "<group>"; };
+		B02000017 /* PlaySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySession.swift; sourceTree = "<group>"; };
+		B02000018 /* SessionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTracker.swift; sourceTree = "<group>"; };
+		B02000019 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B0200001A /* StatsDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsDashboardView.swift; sourceTree = "<group>"; };
+		B0200001B /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		B0200001C /* ArtworkFetcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkFetcherView.swift; sourceTree = "<group>"; };
+		B0200001D /* QuickLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLaunchView.swift; sourceTree = "<group>"; };
+		B0200001E /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		B0200001F /* SmartCollectionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCollectionEditorView.swift; sourceTree = "<group>"; };
+		B02000020 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B02000021 /* GameShelf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameShelf.entitlements; sourceTree = "<group>"; };
+		B02000022 /* GamepadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepadController.swift; sourceTree = "<group>"; };
+		B02000023 /* SteamScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamScanner.swift; sourceTree = "<group>"; };
+		B02000025 /* EmulatorDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmulatorDownloadManager.swift; sourceTree = "<group>"; };
+		B02000026 /* SaveManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B03000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04000001 = {
+			isa = PBXGroup;
+			children = (
+				B04000002 /* GameShelf */,
+				B04000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B04000002 /* GameShelf */ = {
+			isa = PBXGroup;
+			children = (
+				B02000001 /* GameShelfApp.swift */,
+				B02000002 /* ContentView.swift */,
+				B0200000D /* Theme.swift */,
+				B04000004 /* Models */,
+				B04000005 /* Views */,
+				B04000006 /* ViewModels */,
+				B04000007 /* Services */,
+				B04000008 /* Effects */,
+				B02000003 /* Assets.xcassets */,
+				B02000021 /* GameShelf.entitlements */,
+			);
+			path = GameShelf;
+			sourceTree = "<group>";
+		};
+		B04000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02000000 /* GameShelf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B04000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B02000004 /* ROM.swift */,
+				B02000005 /* AppConfig.swift */,
+				B0200000C /* Platform.swift */,
+				B02000011 /* Collection.swift */,
+				B02000016 /* GameMetadata.swift */,
+				B02000017 /* PlaySession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B04000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B02000009 /* LibraryView.swift */,
+				B0200000A /* SettingsView.swift */,
+				B0200000B /* GameCardView.swift */,
+				B02000012 /* SidebarView.swift */,
+				B02000013 /* CollectionEditorView.swift */,
+				B02000019 /* StatsView.swift */,
+				B0200001A /* StatsDashboardView.swift */,
+				B0200001B /* GameDetailView.swift */,
+				B0200001C /* ArtworkFetcherView.swift */,
+				B0200001D /* QuickLaunchView.swift */,
+				B0200001E /* ListRowView.swift */,
+				B0200001F /* SmartCollectionEditorView.swift */,
+				B02000020 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B04000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B02000008 /* LibraryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B04000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B02000006 /* ROMScanner.swift */,
+				B02000007 /* EmulatorLauncher.swift */,
+				B02000014 /* ArtworkScraper.swift */,
+				B02000015 /* ImageCache.swift */,
+				B02000018 /* SessionTracker.swift */,
+				B02000022 /* GamepadController.swift */,
+				B02000023 /* SteamScanner.swift */,
+				B02000025 /* EmulatorDownloadManager.swift */,
+				B02000026 /* SaveManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B04000008 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				B0200000E /* Animations.swift */,
+				B0200000F /* GlitchEffect.swift */,
+				B02000010 /* ScanlineOverlay.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B05000001 /* GameShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07000001 /* Build configuration list for PBXNativeTarget "GameShelf" */;
+			buildPhases = (
+				B03000002 /* Sources */,
+				B03000001 /* Frameworks */,
+				B03000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameShelf;
+			productName = GameShelf;
+			productReference = B02000000 /* GameShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					B05000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B07000002 /* Build configuration list for PBXProject "GameShelf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04000001;
+			productRefGroup = B04000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B05000001 /* GameShelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B03000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01000003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B03000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01000001 /* GameShelfApp.swift in Sources */,
+				B01000002 /* ContentView.swift in Sources */,
+				B01000004 /* ROM.swift in Sources */,
+				B01000005 /* AppConfig.swift in Sources */,
+				B01000006 /* ROMScanner.swift in Sources */,
+				B01000007 /* EmulatorLauncher.swift in Sources */,
+				B01000008 /* LibraryViewModel.swift in Sources */,
+				B01000009 /* LibraryView.swift in Sources */,
+				B0100000A /* SettingsView.swift in Sources */,
+				B0100000B /* GameCardView.swift in Sources */,
+				B0100000C /* Platform.swift in Sources */,
+				B0100000D /* Theme.swift in Sources */,
+				B0100000E /* Animations.swift in Sources */,
+				B0100000F /* GlitchEffect.swift in Sources */,
+				B01000010 /* ScanlineOverlay.swift in Sources */,
+				B01000011 /* Collection.swift in Sources */,
+				B01000012 /* SidebarView.swift in Sources */,
+				B01000013 /* CollectionEditorView.swift in Sources */,
+				B01000014 /* ArtworkScraper.swift in Sources */,
+				B01000015 /* ImageCache.swift in Sources */,
+				B01000016 /* GameMetadata.swift in Sources */,
+				B01000017 /* PlaySession.swift in Sources */,
+				B01000018 /* SessionTracker.swift in Sources */,
+				B01000019 /* StatsView.swift in Sources */,
+				B0100001A /* StatsDashboardView.swift in Sources */,
+				B0100001B /* GameDetailView.swift in Sources */,
+				B0100001C /* ArtworkFetcherView.swift in Sources */,
+				B0100001D /* QuickLaunchView.swift in Sources */,
+				B0100001E /* ListRowView.swift in Sources */,
+				B0100001F /* SmartCollectionEditorView.swift in Sources */,
+				B01000020 /* OnboardingView.swift in Sources */,
+				B01000021 /* GamepadController.swift in Sources */,
+				B01000022 /* SteamScanner.swift in Sources */,
+				B01000024 /* EmulatorDownloadManager.swift in Sources */,
+				B01000025 /* SaveManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B08000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B08000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B08000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GameShelf/GameShelf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gameshelf.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B08000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GameShelf/GameShelf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gameshelf.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B07000001 /* Build configuration list for PBXNativeTarget "GameShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08000003 /* Debug */,
+				B08000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07000002 /* Build configuration list for PBXProject "GameShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08000001 /* Debug */,
+				B08000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06000001 /* Project object */;
+}
