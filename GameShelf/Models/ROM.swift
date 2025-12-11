@@ -1,6 +1,6 @@
 import Foundation
 
-struct ROM: Identifiable, Hashable, Equatable {
+struct ROM: Identifiable, Hashable, Equatable, Codable {
     let id: String
     let name: String
     let path: URL
@@ -15,6 +15,15 @@ struct ROM: Identifiable, Hashable, Equatable {
     
     var isSteamGame: Bool {
         steamAppId != nil
+    }
+    
+    /// Check if the ROM file is currently accessible (drive connected)
+    var isAvailable: Bool {
+        // Steam games are always "available" if Steam is installed
+        if isSteamGame {
+            return FileManager.default.fileExists(atPath: "/Applications/Steam.app")
+        }
+        return FileManager.default.fileExists(atPath: path.path)
     }
     
     init(id: String, name: String, path: URL, fileExtension: String, platform: String, fileSize: Int64, dateAdded: Date, steamAppId: String? = nil, steamIconHash: String? = nil) {

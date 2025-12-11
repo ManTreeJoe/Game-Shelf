@@ -271,6 +271,28 @@ struct GameDetailView: View {
                 }
             }
             
+            // Unavailable warning
+            if !rom.isAvailable {
+                HStack(spacing: 10) {
+                    Image(systemName: "externaldrive.badge.xmark")
+                        .font(.system(size: 16, weight: .semibold))
+                    Text("Drive Disconnected")
+                        .font(.synthwave(14, weight: .semibold))
+                    Text("• Connect the drive to play")
+                        .font(.synthwave(12))
+                        .foregroundColor(Theme.textTertiary)
+                }
+                .foregroundColor(Theme.warmAmber)
+                .padding(.horizontal, 16)
+                .padding(.vertical, 10)
+                .background(Theme.warmAmber.opacity(0.15))
+                .cornerRadius(10)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Theme.warmAmber.opacity(0.3), lineWidth: 1)
+                )
+            }
+            
             // Action buttons
             HStack(spacing: 16) {
                 // Play button
@@ -278,24 +300,25 @@ struct GameDetailView: View {
                     viewModel.launchROM(rom)
                 } label: {
                     HStack(spacing: 10) {
-                        Image(systemName: "play.fill")
+                        Image(systemName: rom.isAvailable ? "play.fill" : "externaldrive.badge.xmark")
                             .font(.system(size: 16, weight: .bold))
-                        Text("PLAY")
+                        Text(rom.isAvailable ? "PLAY" : "OFFLINE")
                             .font(.synthwave(16, weight: .bold))
                     }
                     .foregroundColor(.white)
                     .padding(.horizontal, 32)
                     .padding(.vertical, 14)
                     .background(
-                        viewModel.hasEmulator(for: rom) ?
+                        !rom.isAvailable ? AnyShapeStyle(Color.gray) :
+                        (viewModel.hasEmulator(for: rom) ?
                             AnyShapeStyle(Theme.neonPinkGradient) :
-                            AnyShapeStyle(Theme.warmAmber)
+                            AnyShapeStyle(Theme.warmAmber))
                     )
                     .cornerRadius(14)
-                    .neonGlow(viewModel.hasEmulator(for: rom) ? Theme.neonPink : Theme.warmAmber, radius: 15, isActive: isHoveringPlay)
+                    .neonGlow(viewModel.hasEmulator(for: rom) ? Theme.neonPink : Theme.warmAmber, radius: 15, isActive: isHoveringPlay && rom.isAvailable)
                 }
                 .buttonStyle(ScaleButtonStyle())
-                .disabled(!viewModel.hasEmulator(for: rom))
+                .disabled(!viewModel.hasEmulator(for: rom) || !rom.isAvailable)
                 .onHover { hovering in
                     isHoveringPlay = hovering
                 }

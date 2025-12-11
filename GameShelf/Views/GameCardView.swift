@@ -43,21 +43,21 @@ struct GameCardView: View {
                     CRTCardBackground(platformColor: platformColor)
                     
                     // Game icon/text
-                    VStack(spacing: 12) {
+                VStack(spacing: 12) {
                         if isLoadingArt {
                             ProgressView()
                                 .scaleEffect(0.8)
                                 .tint(platformColor)
                         } else {
                             Image(systemName: "gamecontroller.fill")
-                                .font(.system(size: 36, weight: .medium))
-                                .foregroundStyle(
-                                    LinearGradient(
-                                        colors: [platformColor, platformColor.opacity(0.6)],
-                                        startPoint: .top,
-                                        endPoint: .bottom
-                                    )
-                                )
+                        .font(.system(size: 36, weight: .medium))
+                        .foregroundStyle(
+                            LinearGradient(
+                                colors: [platformColor, platformColor.opacity(0.6)],
+                                startPoint: .top,
+                                endPoint: .bottom
+                            )
+                        )
                                 .neonGlow(platformColor, radius: 8, isActive: isHighlighted)
                         }
                         
@@ -88,7 +88,7 @@ struct GameCardView: View {
                 }
                 
                 // Hover overlay with actions
-                if isHovered {
+                if isHovered && rom.isAvailable {
                     Color.black.opacity(0.7)
                         .transition(.opacity)
                     
@@ -167,6 +167,27 @@ struct GameCardView: View {
                     }
                 }
                 
+                // Unavailable overlay (drive disconnected)
+                if !rom.isAvailable {
+                    Color.black.opacity(0.6)
+                    
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Image(systemName: "externaldrive.badge.xmark")
+                                .font(.system(size: 11, weight: .semibold))
+                            Text("OFFLINE")
+                                .font(.synthwave(10, weight: .bold))
+                        }
+                        .foregroundColor(.white.opacity(0.9))
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(Theme.warmAmber.opacity(0.8))
+                        .cornerRadius(6)
+                        .padding(8)
+                    }
+                }
+                
                 // Neon border glow on hover or keyboard/gamepad selection
                 if isHighlighted {
                     RoundedRectangle(cornerRadius: 12)
@@ -238,7 +259,12 @@ struct GameCardView: View {
             } label: {
                 Label("Play", systemImage: "play.fill")
             }
-            .disabled(!viewModel.hasEmulator(for: rom))
+            .disabled(!viewModel.hasEmulator(for: rom) || !rom.isAvailable)
+            
+            if !rom.isAvailable {
+                Label("Drive Disconnected", systemImage: "externaldrive.badge.xmark")
+                    .foregroundColor(Theme.warmAmber)
+            }
             
             Divider()
             

@@ -59,23 +59,47 @@ class LibraryViewModel: ObservableObject {
     func scanLibrary() async {
         isLoading = true
         
-        // Scan ROMs
+        // Load cached ROMs first for immediate display
+        let cachedROMs = ROMCache.shared.loadFromCache()
+        if !cachedROMs.isEmpty && roms.isEmpty {
+            roms = cachedROMs.sorted { $0.name.localizedCaseInsensitiveCompare($1.name) == .orderedAscending }
+            applyFilters()
+        }
+        
+        // Scan ROMs from available directories
         let scanner = ROMScanner(config: config)
-        var allGames = await scanner.scan()
+        var scannedGames = await scanner.scan()
         
         // Scan Steam games if enabled
         if config.includeSteamGames {
             let steamScanner = SteamScanner()
             if steamScanner.isSteamInstalled {
                 let steamGames = steamScanner.scan()
-                allGames.append(contentsOf: steamGames)
+                scannedGames.append(contentsOf: steamGames)
             }
         }
         
+        // Merge with cache to preserve unavailable games
+        let allGames = ROMCache.shared.mergeWithCache(scannedROMs: scannedGames, cachedROMs: cachedROMs)
+        
         // Sort combined list
         roms = allGames.sorted { $0.name.localizedCaseInsensitiveCompare($1.name) == .orderedAscending }
+        
+        // Save to cache for offline access
+        ROMCache.shared.saveToCache(roms)
+        
         applyFilters()
         isLoading = false
+    }
+    
+    /// Get count of unavailable games
+    var unavailableCount: Int {
+        roms.filter { !$0.isAvailable }.count
+    }
+    
+    /// Get count of available games
+    var availableCount: Int {
+        roms.filter { $0.isAvailable }.count
     }
     
     func applyFilters() {
