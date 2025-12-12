@@ -1,0 +1,24 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Effects/ScanlineOverlay.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "CRT DISPLAY",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 321
+        }
+      },
+      {
+        "comment": "",
+        "key": "PLAY",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 321
+        }
+      }
+    ]
+  },
+  "version": 1
+}

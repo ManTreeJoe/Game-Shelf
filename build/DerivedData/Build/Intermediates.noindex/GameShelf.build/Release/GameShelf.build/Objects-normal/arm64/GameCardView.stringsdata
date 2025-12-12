@@ -1,0 +1,128 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/GameCardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "PLAY",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "NO EMU",
+        "location": {
+          "startingColumn": 81,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "OFFLINE",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 214
+        }
+      },
+      {
+        "comment": "",
+        "key": "File: %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 339
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drive Disconnected",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 267
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add to Collection",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 283
+        }
+      },
+      {
+        "comment": "",
+        "key": "Change Platform",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 298
+        }
+      },
+      {
+        "comment": "",
+        "key": "Play",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 262
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove from Favorites",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 277
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add to Favorites",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 277
+        }
+      },
+      {
+        "comment": "",
+        "key": "No collections yet",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 293
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reset to Auto-Detect",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "Fetch Artwork",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 328
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show in Finder",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 334
+        }
+      }
+    ]
+  },
+  "version": 1
+}

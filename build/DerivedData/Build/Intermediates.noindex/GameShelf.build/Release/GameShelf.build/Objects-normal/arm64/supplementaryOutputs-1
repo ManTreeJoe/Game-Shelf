@@ -1,0 +1,12 @@
+{
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/GameShelfApp.swift" : {
+    "abi-baseline-json" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf.abi.json",
+    "const-values" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary.swiftconstvalues",
+    "dependencies" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary.d",
+    "diagnostics" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary.dia",
+    "objc-header" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-Swift.h",
+    "swiftdoc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf.swiftdoc",
+    "swiftmodule" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf.swiftmodule",
+    "swiftsourceinfo" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf.swiftsourceinfo"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "" : {
+    "const-values" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary.swiftconstvalues",
+    "dependencies" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary.d",
+    "diagnostics" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary.dia",
+    "emit-module-dependencies" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary-emit-module.dia",
+    "pch" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelf-primary.swiftdeps"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/ContentView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Effects/Animations.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Animations.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Animations.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Animations.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Effects/GlitchEffect.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GlitchEffect.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GlitchEffect.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GlitchEffect.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Effects/ScanlineOverlay.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ScanlineOverlay.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ScanlineOverlay.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ScanlineOverlay.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/GameShelfApp.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelfApp.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelfApp.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameShelfApp.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Models/AppConfig.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/AppConfig.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/AppConfig.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/AppConfig.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Models/Collection.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Collection.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Collection.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Collection.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Models/GameMetadata.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameMetadata.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameMetadata.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameMetadata.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Models/Platform.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Platform.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Platform.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Platform.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Models/PlaySession.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/PlaySession.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/PlaySession.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/PlaySession.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Models/ROM.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ROM.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ROM.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ROM.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/ArtworkScraper.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ArtworkScraper.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ArtworkScraper.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ArtworkScraper.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/EmulatorDownloadManager.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/EmulatorDownloadManager.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/EmulatorDownloadManager.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/EmulatorDownloadManager.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/EmulatorLauncher.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/EmulatorLauncher.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/EmulatorLauncher.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/EmulatorLauncher.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/GamepadController.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GamepadController.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GamepadController.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GamepadController.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/ImageCache.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ImageCache.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ImageCache.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ImageCache.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/ROMCache.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ROMCache.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ROMCache.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ROMCache.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/ROMScanner.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ROMScanner.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ROMScanner.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ROMScanner.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/SaveManager.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SaveManager.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SaveManager.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SaveManager.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/SessionTracker.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SessionTracker.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SessionTracker.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SessionTracker.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Services/SteamScanner.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SteamScanner.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SteamScanner.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SteamScanner.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Theme.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Theme.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Theme.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/Theme.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/ViewModels/LibraryViewModel.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/LibraryViewModel.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/LibraryViewModel.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/LibraryViewModel.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/ArtworkFetcherView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ArtworkFetcherView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ArtworkFetcherView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ArtworkFetcherView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/CollectionEditorView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/CollectionEditorView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/CollectionEditorView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/CollectionEditorView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/GameCardView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameCardView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameCardView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameCardView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/GameDetailView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameDetailView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameDetailView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GameDetailView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/LibraryView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/LibraryView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/LibraryView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/LibraryView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/ListRowView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ListRowView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ListRowView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/ListRowView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/OnboardingView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/OnboardingView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/OnboardingView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/OnboardingView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/QuickLaunchView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/QuickLaunchView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/QuickLaunchView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/QuickLaunchView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/SettingsView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SettingsView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/SidebarView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SidebarView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SidebarView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SidebarView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/SmartCollectionEditorView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SmartCollectionEditorView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SmartCollectionEditorView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/SmartCollectionEditorView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/StatsDashboardView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/StatsDashboardView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/StatsDashboardView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/StatsDashboardView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/StatsView.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/StatsView.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/StatsView.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/StatsView.o"
+  },
+  "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/tree-3/Documents/Game Shelf/build/DerivedData/Build/Intermediates.noindex/GameShelf.build/Release/GameShelf.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

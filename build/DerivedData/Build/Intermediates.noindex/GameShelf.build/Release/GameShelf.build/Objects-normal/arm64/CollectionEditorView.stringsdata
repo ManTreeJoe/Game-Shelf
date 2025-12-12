@@ -1,0 +1,80 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/CollectionEditorView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Edit Collection",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Collection",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "NAME",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "Collection name",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "COLOR",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "ICON",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Changes",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 223
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Collection",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 223
+        }
+      }
+    ]
+  },
+  "version": 1
+}

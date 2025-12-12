@@ -1,0 +1,688 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Close Settings",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "ROM Directories",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add folders containing your ROM files. Subfolders will be scanned automatically.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "No ROM directories added",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Click the button below to add a folder containing your ROMs",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Directory",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Steam Integration",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "Include your Steam library in the game list",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "Steam detected • %lld games found",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Steam not installed",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "Emulators",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 261
+        }
+      },
+      {
+        "comment": "",
+        "key": "Configure which emulator to use for each file type. Add your own if one isn't listed.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 264
+        }
+      },
+      {
+        "comment": "",
+        "key": "No emulators configured",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 281
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add an emulator to start playing your games",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 284
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Emulator",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 312
+        }
+      },
+      {
+        "comment": "",
+        "key": "No emulator path set",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 399
+        }
+      },
+      {
+        "comment": "",
+        "key": "Emulator not found",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 399
+        }
+      },
+      {
+        "comment": "",
+        "key": "+%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 371
+        }
+      },
+      {
+        "comment": "",
+        "key": "+%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 391
+        }
+      },
+      {
+        "comment": "",
+        "key": "Edit",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 410
+        }
+      },
+      {
+        "comment": "",
+        "key": "Edit Emulator",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 468
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Emulator",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 468
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 491
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g., OpenEmu, Dolphin, PPSSPP",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 494
+        }
+      },
+      {
+        "comment": "",
+        "key": "Emulator Application",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 500
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select the .app file or executable for the emulator",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 513
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select emulator app...",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 504
+        }
+      },
+      {
+        "comment": "",
+        "key": "Browse...",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 508
+        }
+      },
+      {
+        "comment": "",
+        "key": "File Extensions",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 520
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g., .nes, .sfc",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 548
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 554
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quick add extensions from platform:",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 562
+        }
+      },
+      {
+        "comment": "",
+        "key": "Platforms (Recommended)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 592
+        }
+      },
+      {
+        "comment": "",
+        "key": "Assign this emulator to specific platforms. This takes priority over file extensions.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 595
+        }
+      },
+      {
+        "comment": "",
+        "key": "Launch Arguments (Advanced)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 653
+        }
+      },
+      {
+        "comment": "",
+        "key": "Use %ROM% as placeholder for the ROM file path. Most emulators just need %ROM%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 660
+        }
+      },
+      {
+        "comment": "",
+        "key": "%ROM%",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 656
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 672
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Changes",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 679
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Emulator",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 679
+        }
+      },
+      {
+        "comment": "",
+        "key": "Platforms",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 800
+        }
+      },
+      {
+        "comment": "",
+        "key": "Built-in platforms are shown below. You can add custom platforms for file types not recognized.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 803
+        }
+      },
+      {
+        "comment": "",
+        "key": "Built-in Platforms",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 814
+        }
+      },
+      {
+        "comment": "",
+        "key": "Custom Platforms",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 821
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Custom Platform",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 839
+        }
+      },
+      {
+        "comment": "",
+        "key": "Built-in",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 880
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Custom Platform",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 910
+        }
+      },
+      {
+        "comment": "",
+        "key": "Platform Color",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 977
+        }
+      },
+      {
+        "comment": "",
+        "key": "Platform Name",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 930
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g., Atari 2600",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 933
+        }
+      },
+      {
+        "comment": "",
+        "key": "File Extensions",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 938
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g., .a26",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 964
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 970
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 989
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Platform",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 995
+        }
+      },
+      {
+        "comment": "",
+        "key": "Backup & Restore",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1133
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export Successful",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 1134
+        }
+      },
+      {
+        "comment": "",
+        "key": "Import Successful",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 1139
+        }
+      },
+      {
+        "comment": "",
+        "key": "Import Settings",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 1144
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save your ROM directories, emulators, platforms, collections, and favorites to a backup file.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1045
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export Settings",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 1042
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export to File",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 1052
+        }
+      },
+      {
+        "comment": "",
+        "key": "Restore settings from a previously exported backup file.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1065
+        }
+      },
+      {
+        "comment": "",
+        "key": "Import Settings",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 1062
+        }
+      },
+      {
+        "comment": "",
+        "key": "Import from File",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 1072
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current Configuration",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 1088
+        }
+      },
+      {
+        "comment": "",
+        "key": "ROM Directories",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1093
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1095
+        }
+      },
+      {
+        "comment": "",
+        "key": "Emulators",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1099
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Platforms",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1105
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1107
+        }
+      },
+      {
+        "comment": "",
+        "key": "Collections",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1111
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Favorites",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1117
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1119
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1135
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your settings have been exported successfully.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 1137
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your settings have been imported successfully.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 1142
+        }
+      },
+      {
+        "comment": "",
+        "key": "Replace All",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Merge",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1150
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1155
+        }
+      },
+      {
+        "comment": "",
+        "key": "Would you like to replace all settings or merge with existing?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 1159
+        }
+      }
+    ]
+  },
+  "version": 1
+}

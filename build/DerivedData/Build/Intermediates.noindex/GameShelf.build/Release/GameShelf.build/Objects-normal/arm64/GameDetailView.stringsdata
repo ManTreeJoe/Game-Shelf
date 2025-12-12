@@ -1,0 +1,136 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/GameDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Drop image to set cover art • Click to browse",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 236
+        }
+      },
+      {
+        "comment": "",
+        "key": "Fetch Artwork",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drop to set cover art",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 221
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drive Disconnected",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 279
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Connect the drive to play",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 281
+        }
+      },
+      {
+        "comment": "",
+        "key": "PLAY",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 305
+        }
+      },
+      {
+        "comment": "",
+        "key": "OFFLINE",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 305
+        }
+      },
+      {
+        "comment": "",
+        "key": "No emulator configured for %@ files",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 363
+        }
+      },
+      {
+        "comment": "",
+        "key": "Configure",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 367
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not in any collections",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 443
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add to Collection",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 449
+        }
+      },
+      {
+        "comment": "",
+        "key": "No collections created yet",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 459
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 488
+        }
+      },
+      {
+        "comment": "",
+        "key": "Backup All",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 517
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 808
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 815
+        }
+      }
+    ]
+  },
+  "version": 1
+}

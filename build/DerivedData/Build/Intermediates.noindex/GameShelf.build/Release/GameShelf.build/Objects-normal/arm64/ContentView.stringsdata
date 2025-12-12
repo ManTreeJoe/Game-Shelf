@@ -1,0 +1,16 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Toggle Sidebar",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 89
+        }
+      }
+    ]
+  },
+  "version": 1
+}

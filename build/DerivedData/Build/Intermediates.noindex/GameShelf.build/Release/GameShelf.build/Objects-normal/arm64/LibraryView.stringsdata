@@ -1,0 +1,160 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/LibraryView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Launch Error",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Settings",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Search games...",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "Switch to List View",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "Switch to Grid View",
+        "location": {
+          "startingColumn": 81,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pick a random game",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 233
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quick Launch (⌘K)",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 239
+        }
+      },
+      {
+        "comment": "",
+        "key": "Fetch artwork for all games",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 246
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh library",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 252
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 258
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld games",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 293
+        }
+      },
+      {
+        "comment": "",
+        "key": "SCANNING LIBRARY...",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 378
+        }
+      },
+      {
+        "comment": "",
+        "key": "NO GAMES FOUND",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 394
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add ROM directories in Settings to get started",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 398
+        }
+      },
+      {
+        "comment": "",
+        "key": "ADD ROM FOLDER",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 408
+        }
+      },
+      {
+        "comment": "",
+        "key": "GAME SHELF",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 499
+        }
+      },
+      {
+        "comment": "",
+        "key": "GAME",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 492
+        }
+      },
+      {
+        "comment": "",
+        "key": "SHELF",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 494
+        }
+      }
+    ]
+  },
+  "version": 1
+}

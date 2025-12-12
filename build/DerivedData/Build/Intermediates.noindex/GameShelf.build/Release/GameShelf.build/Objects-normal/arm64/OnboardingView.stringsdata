@@ -1,0 +1,240 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Views/OnboardingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Skip",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Back",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get Started",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "Welcome to Game Shelf",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your retro game library, beautifully organized.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld platforms selected",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 303
+        }
+      },
+      {
+        "comment": "",
+        "key": "What Do You Want to Play?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 235
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select the platforms you have games for. We'll set up the best emulators automatically.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 239
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 292
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select All",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 282
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear All",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 295
+        }
+      },
+      {
+        "comment": "",
+        "key": "Download Error",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 441
+        }
+      },
+      {
+        "comment": "",
+        "key": "Go back and select some platforms first!",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 376
+        }
+      },
+      {
+        "comment": "",
+        "key": "Emulator Setup",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 366
+        }
+      },
+      {
+        "comment": "",
+        "key": "Based on your selections, here's what you need:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 370
+        }
+      },
+      {
+        "comment": "",
+        "key": "Install All Missing Emulators",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 415
+        }
+      },
+      {
+        "comment": "",
+        "key": "All required emulators are installed!",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 423
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 442
+        }
+      },
+      {
+        "comment": "",
+        "key": "Installed",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 503
+        }
+      },
+      {
+        "comment": "",
+        "key": "Install",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 534
+        }
+      },
+      {
+        "comment": "",
+        "key": "Manual",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 543
+        }
+      },
+      {
+        "comment": "",
+        "key": "You can add more folders later in Settings",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 620
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Your ROM Folders",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 568
+        }
+      },
+      {
+        "comment": "",
+        "key": "Where are your game ROMs stored?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 572
+        }
+      },
+      {
+        "comment": "",
+        "key": "No folders added yet",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 605
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Folder",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 616
+        }
+      },
+      {
+        "comment": "",
+        "key": "You're All Set!",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 656
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your game library is ready to explore.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 660
+        }
+      }
+    ]
+  },
+  "version": 1
+}

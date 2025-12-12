@@ -1,0 +1,16 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Effects/Animations.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "LOADING",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 347
+        }
+      }
+    ]
+  },
+  "version": 1
+}

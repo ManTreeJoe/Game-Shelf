@@ -1,0 +1,24 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Effects/GlitchEffect.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "VHS EFFECT",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 352
+        }
+      },
+      {
+        "comment": "",
+        "key": "GLITCH",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 352
+        }
+      }
+    ]
+  },
+  "version": 1
+}

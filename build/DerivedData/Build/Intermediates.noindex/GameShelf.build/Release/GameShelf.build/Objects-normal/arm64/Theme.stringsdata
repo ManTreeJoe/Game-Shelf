@@ -1,0 +1,16 @@
+{
+  "source": "/Users/tree-3/Documents/Game Shelf/GameShelf/Theme.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "GAME SHELF",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 357
+        }
+      }
+    ]
+  },
+  "version": 1
+}
