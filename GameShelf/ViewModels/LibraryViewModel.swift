@@ -33,7 +33,6 @@ class LibraryViewModel: ObservableObject {
     @Published var showingQuickLaunch = false
     @Published var viewMode: ViewMode = .grid
     @Published var isUsingKeyboardNavigation = false  // Track if keyboard/controller is active
-    
     enum ViewMode: String, CaseIterable {
         case grid = "Grid"
         case list = "List"

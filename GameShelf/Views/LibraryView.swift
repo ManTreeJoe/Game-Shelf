@@ -266,20 +266,24 @@ struct LibraryView: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 10) {
                         PlatformChip(name: "All", isSelected: viewModel.selectedPlatform == nil, color: Theme.neonPink) {
-                            viewModel.selectedPlatform = nil
+                            withAnimation(.easeOut(duration: 0.2)) {
+                                viewModel.selectedPlatform = nil
+                            }
                         }
                         
-                        ForEach(Array(viewModel.platforms.enumerated()), id: \.element) { index, platform in
+                        ForEach(viewModel.platforms, id: \.self) { platform in
                             PlatformChip(
                                 name: platform,
                                 isSelected: viewModel.selectedPlatform == platform,
                                 color: Theme.platformColor(for: platform)
                             ) {
-                                viewModel.selectedPlatform = platform
+                                withAnimation(.easeOut(duration: 0.2)) {
+                                    viewModel.selectedPlatform = platform
+                                }
                             }
                             .opacity(hasAppeared ? 1 : 0)
                             .offset(y: hasAppeared ? 0 : 10)
-                            .animation(.spring(response: 0.5, dampingFraction: 0.7).delay(0.3 + Double(index) * 0.03), value: hasAppeared)
+                            .animation(.spring(response: 0.5, dampingFraction: 0.7).delay(0.3), value: hasAppeared)
                         }
                     }
                     .padding(.horizontal, 4)
@@ -430,9 +434,19 @@ struct LibraryView: View {
                                 isKeyboardSelected: index == viewModel.selectedIndex
                             )
                             .environmentObject(viewModel)
-                            .id(index)
+                            .id(rom.id)
+                            .transition(.asymmetric(
+                                insertion: .scale(scale: 0.8).combined(with: .opacity),
+                                removal: .scale(scale: 0.8).combined(with: .opacity)
+                            ))
+                            .animation(
+                                .spring(response: 0.35, dampingFraction: 0.8)
+                                    .delay(Double(index % 12) * 0.03),
+                                value: rom.id
+                            )
                         }
                     }
+                    .animation(.spring(response: 0.4, dampingFraction: 0.8), value: viewModel.filteredRoms.map { $0.id })
                     .padding(.horizontal, 48)
                     .padding(.vertical, 20)
                 } else {
@@ -443,16 +457,27 @@ struct LibraryView: View {
                                 isSelected: index == viewModel.selectedIndex
                             )
                             .environmentObject(viewModel)
-                            .id(index)
+                            .id(rom.id)
+                            .transition(.asymmetric(
+                                insertion: .move(edge: .leading)
+                                    .combined(with: .opacity)
+                                    .animation(.spring(response: 0.3, dampingFraction: 0.7).delay(Double(index) * 0.02)),
+                                removal: .move(edge: .leading)
+                                    .combined(with: .opacity)
+                                    .animation(.spring(response: 0.25, dampingFraction: 0.75))
+                            ))
                         }
                     }
+                    .animation(.spring(response: 0.4, dampingFraction: 0.8), value: viewModel.filteredRoms.map { $0.id })
                     .padding(.horizontal, 48)
                     .padding(.vertical, 16)
                 }
             }
             .onChange(of: viewModel.selectedIndex) { _, newIndex in
-                withAnimation(.easeOut(duration: 0.2)) {
-                    proxy.scrollTo(newIndex, anchor: .center)
+                if newIndex < viewModel.filteredRoms.count {
+                    withAnimation(.easeOut(duration: 0.2)) {
+                        proxy.scrollTo(viewModel.filteredRoms[newIndex].id, anchor: .center)
+                    }
                 }
             }
         }

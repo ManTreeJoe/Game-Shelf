@@ -1,5 +1,6 @@
 import Foundation
 import SwiftUI
+import UniformTypeIdentifiers
 
 // MARK: - Artwork Scraper
 
@@ -269,7 +270,7 @@ struct ArtworkPickerView: View {
             
             // Content
             if searchResults.isEmpty {
-                VStack(spacing: 16) {
+                VStack(spacing: 20) {
                     Image(systemName: "photo.on.rectangle.angled")
                         .font(.system(size: 48))
                         .foregroundColor(Theme.textTertiary)
@@ -277,6 +278,23 @@ struct ArtworkPickerView: View {
                     Text("Search for game artwork or drag an image here")
                         .font(.synthwaveBody(14))
                         .foregroundColor(Theme.textSecondary)
+                    
+                    Button {
+                        openFilePicker()
+                    } label: {
+                        HStack(spacing: 8) {
+                            Image(systemName: "folder")
+                            Text("Browse Files...")
+                        }
+                        .font(.synthwave(14, weight: .medium))
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 12)
+                        .background(Theme.neonCyanGradient)
+                        .cornerRadius(10)
+                        .neonGlow(Theme.neonCyan, radius: 8)
+                    }
+                    .buttonStyle(.plain)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else {
@@ -332,6 +350,25 @@ struct ArtworkPickerView: View {
         .background(Theme.background)
         .onAppear {
             searchQuery = rom.displayName
+        }
+    }
+    
+    private func openFilePicker() {
+        let panel = NSOpenPanel()
+        panel.allowsMultipleSelection = false
+        panel.canChooseDirectories = false
+        panel.canChooseFiles = true
+        panel.allowedContentTypes = [.image, .png, .jpeg, .gif, .webP, .tiff, .bmp]
+        panel.message = "Select an image for \(rom.displayName)"
+        panel.prompt = "Select"
+        
+        if panel.runModal() == .OK, let url = panel.url {
+            if let image = NSImage(contentsOf: url) {
+                selectedImage = image
+                // Auto-apply the selected image
+                onSelect(image)
+                dismiss()
+            }
         }
     }
 }

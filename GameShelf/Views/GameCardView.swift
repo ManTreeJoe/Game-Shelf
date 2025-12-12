@@ -13,6 +13,7 @@ struct GameCardView: View {
     @State private var showGlitch = false
     @State private var coverImage: NSImage?
     @State private var isLoadingArt = true
+    @State private var showingArtworkPicker = false
     
     private var platformColor: Color {
         Theme.platformColor(for: rom.platform)
@@ -136,13 +137,11 @@ struct GameCardView: View {
                             }
                             .buttonStyle(ScaleButtonStyle())
                             
-                            // Fetch artwork button
+                            // Add artwork button
                             Button {
-                                Task {
-                                    await fetchArtwork()
-                                }
+                                showingArtworkPicker = true
                             } label: {
-                                Image(systemName: "photo")
+                                Image(systemName: "photo.badge.plus")
                                     .font(.system(size: 18))
                                     .foregroundColor(.white.opacity(0.8))
                             }
@@ -224,8 +223,6 @@ struct GameCardView: View {
             .padding(.horizontal, 2)
         }
         .scaleEffect(isPressed ? 0.96 : (isHighlighted ? 1.05 : 1.0))
-        .opacity(hasAppeared ? 1 : 0)
-        .offset(y: hasAppeared ? 0 : 20)
         .animation(.spring(response: 0.35, dampingFraction: 0.7), value: isHovered)
         .animation(.spring(response: 0.35, dampingFraction: 0.7), value: isKeyboardSelected)
         .animation(.spring(response: 0.2, dampingFraction: 0.8), value: isPressed)
@@ -245,12 +242,17 @@ struct GameCardView: View {
                 triggerGlitch()
             }
         }
-        .gesture(
+        .simultaneousGesture(
             DragGesture(minimumDistance: 0)
                 .onChanged { _ in isPressed = true }
                 .onEnded { _ in isPressed = false }
         )
         .onTapGesture(count: 2) {
+            // Double-click to launch the game
+            viewModel.launchROM(rom)
+        }
+        .onTapGesture(count: 1) {
+            // Single-click to open game details
             viewModel.selectedROM = rom
         }
         .contextMenu {
@@ -338,12 +340,25 @@ struct GameCardView: View {
                 .font(.caption)
         }
         .onAppear {
-            withAnimation(.spring(response: 0.5, dampingFraction: 0.7).delay(appearDelay)) {
-                hasAppeared = true
-            }
+            // Appearance animation now handled by transition in LibraryView
+            hasAppeared = true
         }
         .task {
             await loadCachedArtwork()
+        }
+        .sheet(isPresented: $showingArtworkPicker) {
+            ArtworkPickerView(rom: rom) { image in
+                // Save the artwork to cache
+                let cacheKey = rom.path.path.safeFileName + "_cover"
+                Task {
+                    await ImageCache.shared.store(image, forKey: cacheKey)
+                    await MainActor.run {
+                        withAnimation(.easeIn(duration: 0.3)) {
+                            coverImage = image
+                        }
+                    }
+                }
+            }
         }
     }
     

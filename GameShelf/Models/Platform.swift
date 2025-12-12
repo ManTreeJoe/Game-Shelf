@@ -27,5 +27,6 @@ struct Platform: Identifiable, Codable, Hashable {
         Platform(name: "Game Gear", extensions: [".gg"], color: "#000000", icon: "gamecontroller"),
         Platform(name: "Sega Saturn", extensions: [".cue", ".chd"], color: "#000000", icon: "gamecontroller"),
         Platform(name: "Dreamcast", extensions: [".cdi", ".gdi"], color: "#FF6600", icon: "gamecontroller"),
+        Platform(name: "Steam", extensions: [".steam"], color: "#1b2838", icon: "gamecontroller"),
     ]
 }
