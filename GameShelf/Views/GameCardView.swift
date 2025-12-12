@@ -223,6 +223,8 @@ struct GameCardView: View {
             .padding(.horizontal, 2)
         }
         .scaleEffect(isPressed ? 0.96 : (isHighlighted ? 1.05 : 1.0))
+        .opacity(hasAppeared ? 1 : 0)
+        .offset(y: hasAppeared ? 0 : 20)
         .animation(.spring(response: 0.35, dampingFraction: 0.7), value: isHovered)
         .animation(.spring(response: 0.35, dampingFraction: 0.7), value: isKeyboardSelected)
         .animation(.spring(response: 0.2, dampingFraction: 0.8), value: isPressed)
@@ -340,8 +342,9 @@ struct GameCardView: View {
                 .font(.caption)
         }
         .onAppear {
-            // Appearance animation now handled by transition in LibraryView
-            hasAppeared = true
+            withAnimation(.spring(response: 0.5, dampingFraction: 0.7).delay(appearDelay)) {
+                hasAppeared = true
+            }
         }
         .task {
             await loadCachedArtwork()
