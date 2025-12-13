@@ -39,7 +39,7 @@
         "key": "File: %@",
         "location": {
           "startingColumn": 18,
-          "startingLine": 339
+          "startingLine": 341
         }
       },
       {
@@ -47,7 +47,7 @@
         "key": "Drive Disconnected",
         "location": {
           "startingColumn": 23,
-          "startingLine": 267
+          "startingLine": 269
         }
       },
       {
@@ -55,7 +55,7 @@
         "key": "Add to Collection",
         "location": {
           "startingColumn": 18,
-          "startingLine": 283
+          "startingLine": 285
         }
       },
       {
@@ -63,7 +63,7 @@
         "key": "Change Platform",
         "location": {
           "startingColumn": 18,
-          "startingLine": 298
+          "startingLine": 300
         }
       },
       {
@@ -71,7 +71,7 @@
         "key": "Play",
         "location": {
           "startingColumn": 23,
-          "startingLine": 262
+          "startingLine": 264
         }
       },
       {
@@ -79,7 +79,7 @@
         "key": "Remove from Favorites",
         "location": {
           "startingColumn": 49,
-          "startingLine": 277
+          "startingLine": 279
         }
       },
       {
@@ -87,7 +87,7 @@
         "key": "Add to Favorites",
         "location": {
           "startingColumn": 75,
-          "startingLine": 277
+          "startingLine": 279
         }
       },
       {
@@ -95,7 +95,7 @@
         "key": "No collections yet",
         "location": {
           "startingColumn": 26,
-          "startingLine": 293
+          "startingLine": 295
         }
       },
       {
@@ -103,7 +103,7 @@
         "key": "Reset to Auto-Detect",
         "location": {
           "startingColumn": 31,
-          "startingLine": 318
+          "startingLine": 320
         }
       },
       {
@@ -111,7 +111,7 @@
         "key": "Fetch Artwork",
         "location": {
           "startingColumn": 23,
-          "startingLine": 328
+          "startingLine": 330
         }
       },
       {
@@ -119,7 +119,7 @@
         "key": "Show in Finder",
         "location": {
           "startingColumn": 23,
-          "startingLine": 334
+          "startingLine": 336
         }
       }
     ]

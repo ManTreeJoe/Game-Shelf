@@ -6,7 +6,7 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>E4168953-0326-428E-9651-5E9958F0BC49</key>
+		<key>37590D0B-6BAF-4CDF-ADC3-A6BF7EE87A05</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,17 +15,17 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E4168953-0326-428E-9651-5E9958F0BC49.xcactivitylog</string>
+			<string>37590D0B-6BAF-4CDF-ADC3-A6BF7EE87A05.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>S</string>
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
@@ -38,15 +38,15 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Building project GameShelf with scheme GameShelf and configuration Release</string>
+			<string>Cleaning project GameShelf with scheme GameShelf and configuration Release</string>
 			<key>timeStartedRecording</key>
-			<real>787256722.01324701</real>
+			<real>787282955.93085098</real>
 			<key>timeStoppedRecording</key>
-			<real>787256731.18292403</real>
+			<real>787282956.14718103</real>
 			<key>title</key>
-			<string>Building project GameShelf with scheme GameShelf and configuration Release</string>
+			<string>Cleaning project GameShelf with scheme GameShelf and configuration Release</string>
 			<key>uniqueIdentifier</key>
-			<string>E4168953-0326-428E-9651-5E9958F0BC49</string>
+			<string>37590D0B-6BAF-4CDF-ADC3-A6BF7EE87A05</string>
 		</dict>
 	</dict>
 </dict>
